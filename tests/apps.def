@@ -19,7 +19,7 @@ APP FV3GFS-GSDCHEM  URL gerrit:EMC_FV3GFS-GSDCHEM
 
 # Shell expressions that generate scrub space for a given $username
 # on each platform.
-ON hera.intel        SCRUB /scratch1/NCEPDEV/nems/$username/scrub
+ON hera.intel        SCRUB /scratch3/NCEPDEV/stmp/$username/scrub
 ON wcoss1            SCRUB /ptmpp1/$username
 ON wcoss2            SCRUB /ptmpd3/$username
 ON wcoss_cray        SCRUB /gpfs/hps2/ptmp/$username

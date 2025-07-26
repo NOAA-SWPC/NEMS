@@ -4,7 +4,7 @@
 #
 ########################################################################
 
-ifneq (,$(and $(wildcard /scratch1),$(wildcard /scratch2)))
+ifneq (,$(and $(wildcard /scratch3),$(wildcard /scratch4)))
   NEMS_COMPILER?=intel
   $(call add_build_env,hera.$(NEMS_COMPILER),env/rdhpcs/hera.$(NEMS_COMPILER).mk)
 else
